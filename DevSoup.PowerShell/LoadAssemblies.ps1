@@ -17,3 +17,4 @@ function Add-Assemblies($assemblies)
 
 $assemblies = "Microsoft.SharePoint.Client", "Microsoft.SharePoint.Client.Runtime", "Microsoft.SharePoint.Client.DocumentManagement.dll";
 Add-Assemblies $assemblies
+
