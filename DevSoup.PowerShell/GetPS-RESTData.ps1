@@ -12,7 +12,7 @@ Function getEntity($entity){
     $PWA_Url = "http://URL.com" #change this 
     $Url = $PWA_Url+"_api/ProjectData/"
     #Account
-
+	   
     $fullURL = $Url + $entity
     Write-Host $fullURL
     Return Invoke-RestMethod -Method Get -Uri $fullURL -Credential $Credential
